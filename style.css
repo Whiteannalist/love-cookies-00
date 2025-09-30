@@ -1,0 +1,334 @@
+     body{
+        margin: 0;
+        font-family: "Arial",sans-serif;
+        background-color: #fff;
+        color:#333;
+        line-height:1.6;
+    }
+    header{
+        background-color: #ff69b4;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+     header {
+      background-color: #ff69b4; /* สีพื้นหลังชมพู */
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: white;
+      margin: 0;
+      font-size: 18px;
+    }
+
+    /* ---------- เมนูนำทาง ---------- */
+    nav a {
+      color: white;
+      margin-left: 40px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* ---------- ปุ่ม Download ---------- */
+    .download-btn {
+      background: white;
+      color: #ff69b4;
+      padding: 6px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .download-btn:hover {
+      background: #ffe6f0;
+    }
+    main {
+      max-width: 800px; /* จำกัดความกว้าง */
+      margin: 40px auto; /* จัดให้อยู่กึ่งกลาง */
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      color: #ff69b4;
+      font-size: 28px;
+    }
+
+    /* ---------- หัวข้อ Terms ---------- */
+    .terms {
+      font-weight: bold;
+      color: #ff0066;
+      margin-top: 20px;
+    }
+
+    /* ---------- เรื่องย่อ ---------- */
+    .story {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    /* ---------- ภาพประกอบ ---------- */
+    .game-image img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    }
+
+   footer {
+  background-color: #f08bb4;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 40px;
+  border-top: 1px solid #ffffff;
+}
+
+footer a {
+  color: #444;
+  text-decoration: none;
+  margin: 0 5px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+/*Game info*/
+
+
+    body.gameinfo {
+      font-family: Arial, sans-serif; /* ฟอนต์ตัวอักษร */
+      background: #fff;              /* สีพื้นหลัง */
+      color: #333;                   /* สีข้อความหลัก */
+      margin: 0;
+      padding: 0;
+    }
+
+    header.gameinfo  {
+      background: #ff69b4;           /* พื้นหลังหัวเว็บ สีชมพู */
+      color: white;                  /* ตัวหนังสือสีขาว */
+      padding: 20px;
+      text-align: center;            /* จัดข้อความตรงกลาง */
+    }
+    header h1.gameinfo {
+      color: white;
+      margin: 0;
+      
+      
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h2, h3 {
+      color: #ff1493;                /* สีชมพูเข้มสำหรับหัวข้อ */
+    }
+
+    .info {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .character {
+        text-align: center;      /* จัดให้อยู่ตรงกลาง */
+        font-size: 28px;         /* ขนาดตัวอักษรใหญ่ */
+        color: #ff1493;          /* สีชมพูเข้ม */
+        margin-top: 40px;        /* เว้นระยะจากด้านบน */
+        margin-bottom: 20px;     /* เว้นระยะก่อนลงไปตัวละคร */
+
+      border: 2px solid #ff69b4;     /* กรอบรอบกล่องตัวละคร */
+      border-radius: 10px;           /* มุมโค้ง */
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 900px;              /* จำกัดความกว้าง */
+    }
+
+    .character img {
+      max-width: 800px;              /* จำกัดขนาดรูปตัวละคร */
+      display: block;
+      margin: 0 auto 15px auto;      /* จัดกึ่งกลาง */
+    }
+
+    .character p {
+        text-align: center;
+        font-size: 15px;   /* ขนาดเล็กลง (ปกติคือ 16px) */
+        line-height: 1.4;  /* ระยะห่างระหว่างบรรทัด */
+        color: #9e406c;       /* สีเทาเข้ม อ่านง่าย */
+}
+
+.gallery-title {
+  text-align: center;   /* จัดหัวข้อให้อยู่ตรงกลาง */
+  color: #a64ca6;       /* สีตัวอักษร (ม่วง) */
+  font-size: 24px;      /* ขนาดตัวอักษร */
+  margin: 40px 0 20px;  /* เว้นระยะด้านบนและล่าง */
+}
+
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* มี 2 คอลัมน์ */
+  gap: 15px; /* ระยะห่างระหว่างรูป */
+  max-width: 900px;
+  margin: auto;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* รูปที่ให้กินเต็มแถว */
+.gallery img.big {
+  grid-column: span 2; /* ข้าม 2 คอลัมน์ → เต็มบรรทัด */
+}
+    
+
+    a {
+      display: inline-block;
+      margin: 20px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .back-button {
+  margin: 20px 0;        /* ระยะห่าง */
+  text-align: center;      /* ชิดซ้าย */
+}
+
+.back-button a {
+  display: inline-block;
+  background-color: #ff69b4; /* ชมพู */
+  color: white;
+  padding: 20px 35px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.back-button a:hover {
+  background-color: #e0559e; /* ชมพูเข้มตอน hover */
+}
+
+footer {
+  background-color: #f08bb4;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+footer a {
+  color: #444;
+  text-decoration: none;
+  margin: 0 5px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*About us*/
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff9fc;
+      color: #333;
+    }
+    header {
+      background-color: #ff69b4;
+  color: white;
+  padding: 15px 30px;
+  font-weight: bold;
+  display: flex;               /* ใช้ flex */
+  justify-content: space-between; /* ดัน h1 ไปซ้าย nav ไปขวา */
+  align-items: center;         /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+}
+    
+
+    nav a {
+      text-align: right;
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .about-container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .about-container h1 {
+      font-size: 2em;
+      color: #d63384;
+      border-bottom: 2px solid #f08bb4;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .content {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .content img {
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .text {
+      flex: 1;
+      line-height: 1.8;
+    }
+    .contact {
+      margin-top: 30px;
+      padding: 15px;
+      background: #e999b4;
+      border-radius: 10px;
+    }
+    .contact h2 {
+      margin-bottom: 10px;
+      color: #d63384;
+    }
+    .contact p {
+      margin: 8px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      background: #f08bb4;
+      color: white;
+      font-size: 14px;
+    }
+  
+ 
+    
+   
