@@ -4,6 +4,9 @@
         background-color: #fff;
         color:#333;
         line-height:1.6;
+        /* ลายจุดเล็ก ๆ */
+    background-image: radial-gradient(#ff79a6 1px, transparent 1px);
+    background-size: 10px 10px; /* ขนาดของช่องว่างระหว่างจุด */
     }
     header{
         background-color: #ff69b4;
@@ -69,6 +72,7 @@
       color: #ff0066;
       margin-top: 20px;
     }
+    
 
     /* ---------- เรื่องย่อ ---------- */
     .story {
